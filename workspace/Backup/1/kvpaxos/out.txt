@@ -1,0 +1,164 @@
+Test: No partition ...
+WAIT PUT server: 0 seq: 0 
+STATUS [0] = PEN 
+0,0 :: Majority Prepared 
+A(0) seq 0 with N = 10 and Val = {Put 1 12 3729167304201703287}
+A(1) seq 0 with N = 10 and Val = {Put 1 12 3729167304201703287}
+A(2) seq 0 with N = 10 and Val = {Put 1 12 3729167304201703287}
+A(3) seq 0 with N = 10 and Val = {Put 1 12 3729167304201703287}
+A(4) seq 0 with N = 10 and Val = {Put 1 12 3729167304201703287}
+0,0 :: Majority Accepted 
+DECCC(1) : seq 0
+DECCC(2) : seq 0
+DECCC(3) : seq 0
+DECCC(4) : seq 0
+WAIT PUT server: 0 seq: 0 
+WAIT IS OVER 
+AMOO
+PUT/APPEND REPLY OK
+BOWO
+WAIT PUT server: 2 seq: 1 
+STATUS [1] = PEN 
+2,1 :: Majority Prepared 
+A(0) seq 1 with N = 12 and Val = {Put 1 13 3238356039884528666}
+A(1) seq 1 with N = 12 and Val = {Put 1 13 3238356039884528666}
+A(2) seq 1 with N = 12 and Val = {Put 1 13 3238356039884528666}
+A(3) seq 1 with N = 12 and Val = {Put 1 13 3238356039884528666}
+A(4) seq 1 with N = 12 and Val = {Put 1 13 3238356039884528666}
+2,1 :: Majority Accepted 
+DECCC(0) : seq 1
+DECCC(1) : seq 1
+DECCC(3) : seq 1
+DECCC(4) : seq 1
+WAIT PUT server: 2 seq: 1 
+WAIT IS OVER 
+AMOO
+PUT/APPEND REPLY OK
+BOWO
+3,2 :: Majority Prepared 
+A(0) seq 2 with N = 13 and Val = {Get 1  2689705435560616358}
+A(1) seq 2 with N = 13 and Val = {Get 1  2689705435560616358}
+A(2) seq 2 with N = 13 and Val = {Get 1  2689705435560616358}
+A(3) seq 2 with N = 13 and Val = {Get 1  2689705435560616358}
+A(4) seq 2 with N = 13 and Val = {Get 1  2689705435560616358}
+3,2 :: Majority Accepted 
+DECCC(0) : seq 2
+DECCC(1) : seq 2
+DECCC(2) : seq 2
+DECCC(4) : seq 2
+GET REPLY OK
+  ... Passed
+Test: Progress in majority ...
+WAIT PUT server: 2 seq: 3 
+STATUS [3] = PEN 
+2,3 :: Majority Prepared 
+A(2) seq 3 with N = 12 and Val = {Put 1 14 2911228554920770174}
+A(3) seq 3 with N = 12 and Val = {Put 1 14 2911228554920770174}
+A(4) seq 3 with N = 12 and Val = {Put 1 14 2911228554920770174}
+2,3 :: Majority Accepted 
+DECCC(3) : seq 3
+DECCC(4) : seq 3
+WAIT PUT server: 2 seq: 3 
+WAIT IS OVER 
+AMOO
+PUT/APPEND REPLY OK
+BOWO
+4,4 :: Majority Prepared 
+A(2) seq 4 with N = 14 and Val = {Get 1  3352693160606897173}
+A(3) seq 4 with N = 14 and Val = {Get 1  3352693160606897173}
+A(4) seq 4 with N = 14 and Val = {Get 1  3352693160606897173}
+4,4 :: Majority Accepted 
+DECCC(2) : seq 4
+DECCC(3) : seq 4
+GET REPLY OK
+  ... Passed
+Test: No progress in minority ...
+WAIT PUT server: 0 seq: 3 
+STATUS [3] = PEN 
+WAIT PUT server: 0 seq: 3 
+STATUS [3] = PEN 
+WAIT PUT server: 0 seq: 3 
+STATUS [3] = PEN 
+WAIT PUT server: 0 seq: 3 
+STATUS [3] = PEN 
+WAIT PUT server: 0 seq: 3 
+STATUS [3] = PEN 
+WAIT PUT server: 0 seq: 3 
+STATUS [3] = PEN 
+WAIT PUT server: 0 seq: 3 
+STATUS [3] = PEN 
+4,5 :: Majority Prepared 
+A(2) seq 5 with N = 14 and Val = {Get 1  4260885761604655911}
+A(3) seq 5 with N = 14 and Val = {Get 1  4260885761604655911}
+A(4) seq 5 with N = 14 and Val = {Get 1  4260885761604655911}
+4,5 :: Majority Accepted 
+DECCC(2) : seq 5
+DECCC(3) : seq 5
+GET REPLY OK
+WAIT PUT server: 3 seq: 6 
+STATUS [6] = PEN 
+3,6 :: Majority Prepared 
+A(2) seq 6 with N = 13 and Val = {Put 1 16 2917102449030174547}
+A(3) seq 6 with N = 13 and Val = {Put 1 16 2917102449030174547}
+A(4) seq 6 with N = 13 and Val = {Put 1 16 2917102449030174547}
+3,6 :: Majority Accepted 
+DECCC(2) : seq 6
+DECCC(4) : seq 6
+WAIT PUT server: 3 seq: 6 
+WAIT IS OVER 
+AMOO
+PUT/APPEND REPLY OK
+BOWO
+4,7 :: Majority Prepared 
+A(2) seq 7 with N = 14 and Val = {Get 1  1835616212932328712}
+A(3) seq 7 with N = 14 and Val = {Get 1  1835616212932328712}
+A(4) seq 7 with N = 14 and Val = {Get 1  1835616212932328712}
+4,7 :: Majority Accepted 
+GET REPLY OK
+  ... Passed
+Test: Completion after heal ...
+DECCC(2) : seq 7
+DECCC(3) : seq 7
+0::3  VALUE CHANGED 
+0,3 :: Majority Prepared 
+A(0) seq 3 with N = 10170 and Val = {Put 1 14 2911228554920770174}
+A(2) seq 3 with N = 10170 and Val = {Put 1 14 2911228554920770174}
+A(3) seq 3 with N = 10170 and Val = {Put 1 14 2911228554920770174}
+A(4) seq 3 with N = 10170 and Val = {Put 1 14 2911228554920770174}
+0,3 :: Majority Accepted 
+DECCC(2) : seq 3
+DECCC(3) : seq 3
+DECCC(4) : seq 3
+WAIT PUT server: 0 seq: 3 
+MORE WAIT seq inc 4 
+WAIT PUT server: 0 seq: 4 
+STATUS [4] = PEN 
+0::4  VALUE CHANGED 
+0,4 :: Majority Prepared 
+A(0) seq 4 with N = 20 and Val = {Get 1  3352693160606897173}
+A(2) seq 4 with N = 20 and Val = {Get 1  3352693160606897173}
+A(3) seq 4 with N = 20 and Val = {Get 1  3352693160606897173}
+A(4) seq 4 with N = 20 and Val = {Get 1  3352693160606897173}
+0,4 :: Majority Accepted 
+DECCC(2) : seq 4
+DECCC(3) : seq 4
+DECCC(4) : seq 4
+WAIT PUT server: 0 seq: 4 
+MORE WAIT seq inc 5 
+WAIT PUT server: 0 seq: 5 
+STATUS [5] = PEN 
+0::5  VALUE CHANGED 
+0,5 :: Majority Prepared 
+A(0) seq 5 with N = 20 and Val = {Get 1  4260885761604655911}
+A(2) seq 5 with N = 20 and Val = {Get 1  4260885761604655911}
+A(3) seq 5 with N = 20 and Val = {Get 1  4260885761604655911}
+A(4) seq 5 with N = 20 and Val = {Get 1  4260885761604655911}
+0,5 :: Majority Accepted 
+DECCC(2) : seq 5
+DECCC(3) : seq 5
+DECCC(4) : seq 5
+--- FAIL: TestPartition (4.10s)
+	test_test.go:308: Put did not complete
+FAIL
+exit status 1
+FAIL	kvpaxos	4.111s

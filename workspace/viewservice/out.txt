@@ -1,0 +1,2427 @@
+Time Sub 9223372036854775807 
+Time Const 500000000 
+Test: First primary ...
+
+
+
+Current view: 0 
+ P: 
+ B: 
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------First ping First Server
+After OPT : Current view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+
+**********RERTURN*************
+
+
+  ... Passed
+Test: First backup ...
+
+
+
+Current view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+----------ACK TRUE
+After OPT : Current view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Assigned
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 97888910 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 97097884 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 96364771 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 95127719 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 94344949 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 93445080 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 92087148 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 91088210 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 90315777 
+Time Const 500000000 
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 1 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 1 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: 
+**********RERTURN*************
+
+
+Time Sub 89204635 
+Time Const 500000000 
+  ... Passed
+Test: Backup takes over if primary fails ...
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-1
+----------ACK TRUE
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+Time Sub 87006920 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+Time Sub 187194854 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+Time Sub 287390656 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+Time Sub 387590101 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+Time Sub 487848844 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Current view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+
+**********RERTURN*************
+
+
+Time Sub 588068970 
+Time Const 500000000 
+TICK IS ACKED
+tick inside if
+
+
+
+Current view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+**********RERTURN*************
+
+
+Time Sub 83021797 
+Time Const 500000000 
+
+
+
+Current view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+**********RERTURN*************
+
+
+Time Sub 82616303 
+Time Const 500000000 
+
+
+
+Current view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+**********RERTURN*************
+
+
+Time Sub 81637170 
+Time Const 500000000 
+
+
+
+Current view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+Ping 2 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 2 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+**********RERTURN*************
+
+
+Time Sub 81217292 
+Time Const 500000000 
+  ... Passed
+Test: Restarted server becomes backup ...
+
+
+
+Current view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+----------ACK TRUE
+After OPT : Current view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Backup Assigned
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 78427048 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 77642420 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 76300655 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 75393602 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 74426070 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 72994628 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 71856283 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 70520834 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 69562263 
+Time Const 500000000 
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 3 from /var/tmp/824-21224/viewserver-16658-2
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 3 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: 
+**********RERTURN*************
+
+
+Time Sub 68759644 
+Time Const 500000000 
+  ... Passed
+Test: Idle third server becomes backup if primary fails ...
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 4 from /var/tmp/824-21224/viewserver-16658-2
+----------ACK TRUE
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Backup Volunteer
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 66891627 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Backup Volunteer
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 167116627 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Backup Volunteer
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 267320919 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Backup Volunteer
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 367492735 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Backup Volunteer
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 467672687 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Backup Volunteer
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 567892067 
+Time Const 500000000 
+TICK IS ACKED
+tick inside if
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Ignore
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 59903871 
+Time Const 500000000 
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Ignore
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 59091932 
+Time Const 500000000 
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Ignore
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 57756103 
+Time Const 500000000 
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 0 from /var/tmp/824-21224/viewserver-16658-3
+----------Ignore
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 4 from /var/tmp/824-21224/viewserver-16658-1
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 4 
+ P: /var/tmp/824-21224/viewserver-16658-2
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 56899369 
+Time Const 500000000 
+  ... Passed
+Test: Restarted primary treated as dead ...
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 5 from /var/tmp/824-21224/viewserver-16658-1
+----------ACK TRUE
+After OPT : Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Primary Treated as Dead
+tick inside if
+After OPT : Previous view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+**********RERTURN*************
+
+
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 5 from /var/tmp/824-21224/viewserver-16658-3
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 5 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-3
+**********RERTURN*************
+
+
+  ... Passed
+Test: Dead backup is removed from view ...
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 52209865 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 51355736 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 50186214 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 49268391 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 48390591 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 47270670 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 46568380 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 45558644 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 44253303 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 43452471 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 42140771 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 41228901 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 40459302 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 39322246 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+
+**********RERTURN*************
+
+
+Time Sub 38349453 
+Time Const 500000000 
+TICK IS ACKED
+  ... Passed
+Test: Viewserver waits for primary to ack view ...
+
+
+
+Current view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+Ping 0 from /var/tmp/824-21224/viewserver-16658-1
+----------Backup Assigned
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 6 from /var/tmp/824-21224/viewserver-16658-3
+IGNOOOOOORRRRRREEEEEEE IGNORE IGNORE IGNORE 
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+BEFOREEEEEE     CHECKPOINTTTTTTTTTTTTTTTTTTTTTT
+CHECKPOINTTTTTTTTTTTTTTTTTTTTTT
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 36190042 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 136347756 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 236546755 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 336755587 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 436976618 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 537179998 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 637374525 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 737517964 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 837754284 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 937989908 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 1038132322 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 1138250891 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 1238415701 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 1338538985 
+Time Const 500000000 
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+Time Sub 1438666497 
+Time Const 500000000 
+BEFOREEEEEE     CHECKPOINTTTTTTTTTTTTTTTTTTTTTT 222222222222
+CHECKPOINTTTTTTTTTTTTTTTTTTTTTT 222 22 22
+  ... Passed
+Test: Uninitialized server can't become primary ...
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Previous view: 6 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: 
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 23463477 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 21636190 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 19711594 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 17514022 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 15977191 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 13962078 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 11897043 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 10213777 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 8122471 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-1
+----------Ignore
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 7 from /var/tmp/824-21224/viewserver-16658-3
+----------ACK TRUE
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 6241514 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 106375346 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 206580926 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 306699787 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 406816573 
+Time Const 500000000 
+TICK IS ACKED
+
+
+
+Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Backup Volunteer
+After OPT : Current view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+
+**********RERTURN*************
+
+
+Time Sub 506936660 
+Time Const 500000000 
+TICK IS ACKED
+tick inside if
+
+
+
+Current view: 8 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 608146241 
+Time Const 500000000 
+
+
+
+Current view: 8 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 708327355 
+Time Const 500000000 
+
+
+
+Current view: 8 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 808437080 
+Time Const 500000000 
+
+
+
+Current view: 8 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 908532430 
+Time Const 500000000 
+
+
+
+Current view: 8 
+ P: /var/tmp/824-21224/viewserver-16658-1
+ B: /var/tmp/824-21224/viewserver-16658-2
+Ping 0 from /var/tmp/824-21224/viewserver-16658-2
+----------Ignore
+After OPT : Previous view: 7 
+ P: /var/tmp/824-21224/viewserver-16658-3
+ B: /var/tmp/824-21224/viewserver-16658-1
+**********RERTURN*************
+
+
+Time Sub 1008655572 
+Time Const 500000000 
+Time Sub 1108759221 
+Time Const 500000000 
+  ... Passed
+PASS
+ok  	_/home/saeedt/labs/src/viewservice	9.123s

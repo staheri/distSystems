@@ -1,0 +1,1780 @@
+Test: Concurrent Put/Get/Move (unreliable) ...
+C-PutAppend key: 5 value: 5577006791947779410 XID: 4302998029110455849 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 5 value: 5577006791947779410 conf: 0 
+NOKKK key: 5 value: 5577006791947779410 XID: 4302998029110455849 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 1 value: 4037200794235010051 XID: 2569132583269146568 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 1 value: 4037200794235010051 conf: 0 
+NOKKK key: 1 value: 4037200794235010051 XID: 2569132583269146568 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 3 value: 605394647632969758 XID: 1070892844928612964 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 3 value: 605394647632969758 conf: 0 
+NOKKK key: 3 value: 605394647632969758 XID: 1070892844928612964 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 7 value: 2775422040480279449 XID: 1214027737173150655 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: connection reset by peer
+C-PutAppend key: 7 value: 2775422040480279449 XID: 1214027737173150655 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+1 102 WWWW S-PutAppend key: 7 value: 2775422040480279449 conf: 0 
+NOKKK key: 7 value: 2775422040480279449 XID: 1214027737173150655 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+C-PutAppend key: 2 value: 3510942875414458836 XID: 459568287306356899 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 2 value: 3510942875414458836 conf: 0 
+NOKKK key: 2 value: 3510942875414458836 XID: 459568287306356899 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 4 value: 2610529275472644968 XID: 3786763812955238057 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: connection reset by peer
+C-PutAppend key: 4 value: 2610529275472644968 XID: 3786763812955238057 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+1 102 WWWW S-PutAppend key: 4 value: 2610529275472644968 conf: 0 
+NOKKK key: 4 value: 2610529275472644968 XID: 3786763812955238057 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+C-PutAppend key: 9 value: 1874068156324778273 XID: 2505451573210973304 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 9 value: 1874068156324778273 conf: 0 
+NOKKK key: 9 value: 1874068156324778273 XID: 2505451573210973304 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 0 value: 7955079406183515637 XID: 2606739700211882311 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+unexpected EOF
+C-PutAppend key: 0 value: 7955079406183515637 XID: 2606739700211882311 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+0 102 WWWW S-PutAppend key: 0 value: 7955079406183515637 conf: 0 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: connection reset by peer
+C-PutAppend key: 0 value: 7955079406183515637 XID: 2606739700211882311 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-8 
+2 102 WWWW S-PutAppend key: 0 value: 7955079406183515637 conf: 0 
+NOKKK key: 0 value: 7955079406183515637 XID: 2606739700211882311 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-8 
+C-PutAppend key: 10 value: 6426100070888298971 XID: 1624455185814916367 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 10 value: 6426100070888298971 conf: 0 
+NOKKK key: 10 value: 6426100070888298971 XID: 1624455185814916367 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 6 value: 1460320609597786623 XID: 2846330818431248387 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 6 value: 1460320609597786623 conf: 0 
+NOKKK key: 6 value: 1460320609597786623 XID: 2846330818431248387 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 8 value: 732830328053361739 XID: 2760116175970436989 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 8 value: 732830328053361739 conf: 0 
+NOKKK key: 8 value: 732830328053361739 XID: 2760116175970436989 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 5 value: 5577006791947779410 XID: 3291725096588815906 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 5 value: 5577006791947779410 conf: 0 
+NOKKK key: 5 value: 5577006791947779410 XID: 3291725096588815906 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 1 value: 4037200794235010051 XID: 3551178057517810879 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 1 value: 4037200794235010051 conf: 0 
+NOKKK key: 1 value: 4037200794235010051 XID: 3551178057517810879 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 3 value: 605394647632969758 XID: 2309996880970396322 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: broken pipe
+C-PutAppend key: 3 value: 605394647632969758 XID: 2309996880970396322 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+C-PutAppend key: 3 value: 605394647632969758 XID: 2309996880970396322 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+2 101 WWWW S-PutAppend key: 3 value: 605394647632969758 conf: 0 
+NOKKK key: 3 value: 605394647632969758 XID: 2309996880970396322 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+C-PutAppend key: 7 value: 2775422040480279449 XID: 1166283440326697929 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+unexpected EOF
+C-PutAppend key: 7 value: 2775422040480279449 XID: 1166283440326697929 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+0 102 WWWW S-PutAppend key: 7 value: 2775422040480279449 conf: 0 
+1 102 WWWW S-PutAppend key: 7 value: 2775422040480279449 conf: 0 
+NOKKK key: 7 value: 2775422040480279449 XID: 1166283440326697929 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+C-PutAppend key: 2 value: 3510942875414458836 XID: 2692260745445940360 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 2 value: 3510942875414458836 conf: 0 
+NOKKK key: 2 value: 3510942875414458836 XID: 2692260745445940360 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 4 value: 2610529275472644968 XID: 2011649009709514725 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 102 WWWW S-PutAppend key: 4 value: 2610529275472644968 conf: 0 
+NOKKK key: 4 value: 2610529275472644968 XID: 2011649009709514725 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-PutAppend key: 9 value: 1874068156324778273 XID: 3906409024589571345 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 9 value: 1874068156324778273 conf: 0 
+NOKKK key: 9 value: 1874068156324778273 XID: 3906409024589571345 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 0 value: 7955079406183515637 XID: 218869629397907917 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 102 WWWW S-PutAppend key: 0 value: 7955079406183515637 conf: 0 
+NOKKK key: 0 value: 7955079406183515637 XID: 218869629397907917 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-PutAppend key: 10 value: 6426100070888298971 XID: 1489336913386423274 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 10 value: 6426100070888298971 conf: 0 
+NOKKK key: 10 value: 6426100070888298971 XID: 1489336913386423274 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 6 value: 1460320609597786623 XID: 354060645615686927 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 6 value: 1460320609597786623 conf: 0 
+NOKKK key: 6 value: 1460320609597786623 XID: 354060645615686927 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 8 value: 732830328053361739 XID: 487534039767461191 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 8 value: 732830328053361739 conf: 0 
+NOKKK key: 8 value: 732830328053361739 XID: 487534039767461191 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 5 value: 5577006791947779410 XID: 4123719331918222835 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: connection reset by peer
+C-PutAppend key: 5 value: 5577006791947779410 XID: 4123719331918222835 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+1 100 WWWW S-PutAppend key: 5 value: 5577006791947779410 conf: 0 
+NOKKK key: 5 value: 5577006791947779410 XID: 4123719331918222835 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+C-PutAppend key: 1 value: 4037200794235010051 XID: 2420646741172152460 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 1 value: 4037200794235010051 conf: 0 
+NOKKK key: 1 value: 4037200794235010051 XID: 2420646741172152460 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 3 value: 605394647632969758 XID: 1036807579589619106 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 3 value: 605394647632969758 conf: 0 
+NOKKK key: 3 value: 605394647632969758 XID: 1036807579589619106 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 7 value: 2775422040480279449 XID: 3121734092218131358 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 102 WWWW S-PutAppend key: 7 value: 2775422040480279449 conf: 0 
+NOKKK key: 7 value: 2775422040480279449 XID: 3121734092218131358 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-PutAppend key: 2 value: 3510942875414458836 XID: 3341730294465056892 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 2 value: 3510942875414458836 conf: 0 
+NOKKK key: 2 value: 3510942875414458836 XID: 3341730294465056892 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 4 value: 2610529275472644968 XID: 2764134257967548959 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 102 WWWW S-PutAppend key: 4 value: 2610529275472644968 conf: 0 
+NOKKK key: 4 value: 2610529275472644968 XID: 2764134257967548959 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-PutAppend key: 9 value: 1874068156324778273 XID: 1859424648454632093 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+unexpected EOF
+C-PutAppend key: 9 value: 1874068156324778273 XID: 1859424648454632093 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+0 101 WWWW S-PutAppend key: 9 value: 1874068156324778273 conf: 0 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+C-PutAppend key: 9 value: 1874068156324778273 XID: 1859424648454632093 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+unexpected EOF
+2 101 WWWW S-PutAppend key: 9 value: 1874068156324778273 conf: 0 
+C-PutAppend key: 0 value: 7955079406183515637 XID: 3979146623893663433 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+unexpected EOF
+C-PutAppend key: 0 value: 7955079406183515637 XID: 3979146623893663433 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+0 102 WWWW S-PutAppend key: 0 value: 7955079406183515637 conf: 0 
+1 102 WWWW S-PutAppend key: 0 value: 7955079406183515637 conf: 0 
+NOKKK key: 0 value: 7955079406183515637 XID: 3979146623893663433 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+C-PutAppend key: 10 value: 6426100070888298971 XID: 3913964432572086017 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+unexpected EOF
+C-PutAppend key: 10 value: 6426100070888298971 XID: 3913964432572086017 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: connection reset by peer
+C-PutAppend key: 10 value: 6426100070888298971 XID: 3913964432572086017 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-2 
+2 100 WWWW S-PutAppend key: 10 value: 6426100070888298971 conf: 0 
+NOKKK key: 10 value: 6426100070888298971 XID: 3913964432572086017 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-2 
+0 100 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+C-PutAppend key: 6 value: 1460320609597786623 XID: 3227561624915526855 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: connection reset by peer
+0 101 WWWW S-PutAppend key: 6 value: 1460320609597786623 conf: 0 
+NOKKK key: 6 value: 1460320609597786623 XID: 3227561624915526855 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 8 value: 732830328053361739 XID: 1409436062871437272 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+unexpected EOF
+C-PutAppend key: 8 value: 732830328053361739 XID: 1409436062871437272 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+1 100 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+unexpected EOF
+unexpected EOF
+2 100 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+0 101 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+0 100 RRR S-PutAppend key: 10 value: 6426100070888298971 kv.conf: 3 args.conf: 3 MAX=3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: connection reset by peer
+1 101 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: broken pipe
+2 101 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+1 100 RRR S-PutAppend key: 8 value: 732830328053361739 kv.conf: 3 args.conf: 3 MAX=4 
+unexpected EOF
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: connection reset by peer
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: connection reset by peer
+unexpected EOF
+0 102 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+unexpected EOF
+unexpected EOF
+0 100 RRR S-PutAppend key: 8 value: 732830328053361739 kv.conf: 3 args.conf: 3 MAX=5 
+1 102 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+2 102 Config Changed from 0 to 3 
+***
+oldConf Shards [0 0 0 0 0 0 0 0 0 0]
+newConf Shards [100 101 102 100 101 102 100 101 102 100] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: broken pipe
+OKKK key: 8 value: 732830328053361739 XID: 1409436062871437272 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+C-Get key: 8 GID 100 config: 3
+0 100 RRR S-Get key: 8 conf: 3 
+
+(0,100)-3 #### Reconf 0-6 ###### {Reconf   1298754585926872950 {3 [100 101 102 100 101 102 100 101 102 100] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,100)-3 #### Reconf 1-6 ###### {Reconf   3982743845823279308 {3 [100 101 102 100 101 102 100 101 102 100] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,100)-3 #### Reconf 2-6 ###### {Reconf   4157032994640421604 {3 [100 101 102 100 101 102 100 101 102 100] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,100)-3 #### APP 3-6 ###### {Append 10 6426100070888298971 3913964432572086017 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-3 #### APP 4-6 ###### {Append 8 732830328053361739 1409436062871437272 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+C-PutAppend key: 8 value: 3990936847941512656 XID: 159759496810967689 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 RRR S-PutAppend key: 8 value: 3990936847941512656 kv.conf: 3 args.conf: 3 MAX=7 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+OKKK key: 8 value: 3990936847941512656 XID: 159759496810967689 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 8 GID 100 config: 3
+0 100 RRR S-Get key: 8 conf: 3 
+C-PutAppend key: 5 value: 5577006791947779410 XID: 2934718735746433627 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+C-PutAppend key: 5 value: 5577006791947779410 XID: 2934718735746433627 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+1 100 WWWW S-PutAppend key: 5 value: 5577006791947779410 conf: 3 
+NOKKK key: 5 value: 5577006791947779410 XID: 2934718735746433627 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+
+(0,100)-3 #### Get 6-8 ###### {Get 8  271606927788036944 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-3 #### APP 7-8 ###### {Append 8 3990936847941512656 159759496810967689 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+C-PutAppend key: 1 value: 4037200794235010051 XID: 2676664700170532040 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 1 value: 4037200794235010051 conf: 3 
+NOKKK key: 1 value: 4037200794235010051 XID: 2676664700170532040 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 3 value: 605394647632969758 XID: 2030487053857271619 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+unexpected EOF
+C-PutAppend key: 3 value: 605394647632969758 XID: 2030487053857271619 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+0 101 WWWW S-PutAppend key: 3 value: 605394647632969758 conf: 3 
+1 101 WWWW S-PutAppend key: 3 value: 605394647632969758 conf: 3 
+NOKKK key: 3 value: 605394647632969758 XID: 2030487053857271619 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+C-PutAppend key: 7 value: 2775422040480279449 XID: 390500550801467956 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: connection reset by peer
+C-PutAppend key: 7 value: 2775422040480279449 XID: 390500550801467956 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+unexpected EOF
+C-PutAppend key: 7 value: 2775422040480279449 XID: 390500550801467956 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-8 
+1 102 WWWW S-PutAppend key: 7 value: 2775422040480279449 conf: 3 
+2 102 WWWW S-PutAppend key: 7 value: 2775422040480279449 conf: 3 
+NOKKK key: 7 value: 2775422040480279449 XID: 390500550801467956 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-8 
+C-PutAppend key: 2 value: 3510942875414458836 XID: 4524821542193527951 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 2 value: 3510942875414458836 conf: 3 
+NOKKK key: 2 value: 3510942875414458836 XID: 4524821542193527951 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 4 value: 2610529275472644968 XID: 1001655073791456514 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 102 WWWW S-PutAppend key: 4 value: 2610529275472644968 conf: 3 
+NOKKK key: 4 value: 2610529275472644968 XID: 1001655073791456514 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-PutAppend key: 9 value: 1874068156324778273 XID: 1521967499985712998 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 9 value: 1874068156324778273 conf: 3 
+NOKKK key: 9 value: 1874068156324778273 XID: 1521967499985712998 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 0 value: 7955079406183515637 XID: 2597783437092320273 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 0 value: 7955079406183515637 conf: 3 
+NOKKK key: 0 value: 7955079406183515637 XID: 2597783437092320273 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 10 value: 6426100070888298971 XID: 3173248389384548939 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 10 value: 6426100070888298971 conf: 3 
+NOKKK key: 10 value: 6426100070888298971 XID: 3173248389384548939 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 8 value: 9001045019697981509 XID: 997015279614948358 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 RRR S-PutAppend key: 8 value: 9001045019697981509 kv.conf: 3 args.conf: 3 MAX=9 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+C-PutAppend key: 6 value: 1460320609597786623 XID: 637405907307723059 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 6 value: 1460320609597786623 conf: 3 
+NOKKK key: 6 value: 1460320609597786623 XID: 637405907307723059 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+OKKK key: 8 value: 9001045019697981509 XID: 997015279614948358 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 8 GID 100 config: 3
+0 100 RRR S-Get key: 8 conf: 3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+
+(0,100)-3 #### Get 8-10 ###### {Get 8  4599640403360627210 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-3 #### APP 9-10 ###### {Append 8 9001045019697981509 997015279614948358 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+C-PutAppend key: 5 value: 5577006791947779410 XID: 1722618638032268964 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 5 value: 5577006791947779410 conf: 3 
+NOKKK key: 5 value: 5577006791947779410 XID: 1722618638032268964 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 1 value: 4037200794235010051 XID: 3792139161473735632 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 101 WWWW S-PutAppend key: 1 value: 4037200794235010051 conf: 3 
+NOKKK key: 1 value: 4037200794235010051 XID: 3792139161473735632 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 3 value: 605394647632969758 XID: 3948603396594593322 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: broken pipe
+C-PutAppend key: 3 value: 605394647632969758 XID: 3948603396594593322 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+1 101 WWWW S-PutAppend key: 3 value: 605394647632969758 conf: 3 
+NOKKK key: 3 value: 605394647632969758 XID: 3948603396594593322 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+C-PutAppend key: 7 value: 2775422040480279449 XID: 3663780813320665679 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 102 WWWW S-PutAppend key: 7 value: 2775422040480279449 conf: 3 
+NOKKK key: 7 value: 2775422040480279449 XID: 3663780813320665679 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-PutAppend key: 2 value: 3510942875414458836 XID: 1721875808483758776 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 WWWW S-PutAppend key: 2 value: 3510942875414458836 conf: 3 
+NOKKK key: 2 value: 3510942875414458836 XID: 1721875808483758776 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-PutAppend key: 4 value: 2610529275472644968 XID: 1903928977807576445 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+unexpected EOF
+C-PutAppend key: 4 value: 2610529275472644968 XID: 1903928977807576445 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+0 102 WWWW S-PutAppend key: 4 value: 2610529275472644968 conf: 3 
+1 102 WWWW S-PutAppend key: 4 value: 2610529275472644968 conf: 3 
+NOKKK key: 4 value: 2610529275472644968 XID: 1903928977807576445 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+C-PutAppend key: 9 value: 1874068156324778273 XID: 3061915024042430684 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+unexpected EOF
+C-PutAppend key: 9 value: 1874068156324778273 XID: 3061915024042430684 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+0 101 WWWW S-PutAppend key: 9 value: 1874068156324778273 conf: 3 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+C-PutAppend key: 9 value: 1874068156324778273 XID: 3061915024042430684 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+2 101 WWWW S-PutAppend key: 9 value: 1874068156324778273 conf: 3 
+NOKKK key: 9 value: 1874068156324778273 XID: 3061915024042430684 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+C-PutAppend key: 0 value: 7955079406183515637 XID: 4121769766833411338 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: connection reset by peer
+C-PutAppend key: 0 value: 7955079406183515637 XID: 4121769766833411338 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: connection reset by peer
+C-PutAppend key: 0 value: 7955079406183515637 XID: 4121769766833411338 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-2 
+unexpected EOF
+2 100 WWWW S-PutAppend key: 0 value: 7955079406183515637 conf: 3 
+C-PutAppend key: 10 value: 6426100070888298971 XID: 2685573675008722546 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+unexpected EOF
+C-PutAppend key: 10 value: 6426100070888298971 XID: 2685573675008722546 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+0 101 WWWW S-PutAppend key: 10 value: 6426100070888298971 conf: 3 
+1 101 WWWW S-PutAppend key: 10 value: 6426100070888298971 conf: 3 
+NOKKK key: 10 value: 6426100070888298971 XID: 2685573675008722546 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+C-PutAppend key: 6 value: 1460320609597786623 XID: 1634881116483464574 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: broken pipe
+C-PutAppend key: 6 value: 1460320609597786623 XID: 1634881116483464574 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+unexpected EOF
+C-PutAppend key: 6 value: 1460320609597786623 XID: 1634881116483464574 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+1 101 WWWW S-PutAppend key: 6 value: 1460320609597786623 conf: 3 
+2 101 WWWW S-PutAppend key: 6 value: 1460320609597786623 conf: 3 
+NOKKK key: 6 value: 1460320609597786623 XID: 1634881116483464574 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+0 100 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+unexpected EOF
+1 100 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+unexpected EOF
+2 100 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+@@ MOVE SHARDS &{2959579826070200220 [{3913964432572086017 Append 10 6426100070888298971} {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 }]} 
+ from 100 (0) to 101 conf=6
+0 101 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+0 101 S-MoveShard CONT: [{3913964432572086017 Append 10 6426100070888298971} {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 }] 
+1 101 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: connection reset by peer
+unexpected EOF
+@@ MOVE SHARDS &{62631759341366279 [{3913964432572086017 Append 10 6426100070888298971} {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 }]} 
+ from 100 (1) to 101 conf=6
+0 101 S-MoveShard CONT: [{3913964432572086017 Append 10 6426100070888298971} {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 }] 
+2 101 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+@@ MOVE SHARDS &{2941751204434189965 [{3913964432572086017 Append 10 6426100070888298971} {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 }]} 
+ from 100 (2) to 101 conf=6
+0 101 S-MoveShard CONT: [{3913964432572086017 Append 10 6426100070888298971} {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 }] 
+0 102 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+1 102 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: connection reset by peer
+unexpected EOF
+2 102 Config Changed from 3 to 6 
+***
+oldConf Shards [100 101 102 100 101 102 100 101 102 100]
+newConf Shards [100 101 102 100 101 102 101 101 100 101] 
+unexpected EOF
+C-PutAppend key: 5 value: 5577006791947779410 XID: 2469107692699621800 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 RRR S-PutAppend key: 5 value: 5577006791947779410 kv.conf: 6 args.conf: 6 MAX=14 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+C-PutAppend key: 1 value: 4037200794235010051 XID: 3635835427176182769 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+unexpected EOF
+C-PutAppend key: 3 value: 605394647632969758 XID: 2942204593540487916 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-PutAppend key: 7 value: 2775422040480279449 XID: 3644027872887247987 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: broken pipe
+C-PutAppend key: 7 value: 2775422040480279449 XID: 3644027872887247987 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+1 102 RRR S-PutAppend key: 7 value: 2775422040480279449 kv.conf: 6 args.conf: 6 MAX=6 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: connection reset by peer
+unexpected EOF
+C-PutAppend key: 2 value: 3510942875414458836 XID: 4257651515390744452 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+unexpected EOF
+C-PutAppend key: 4 value: 2610529275472644968 XID: 4396126952987208053 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 100 RRR S-PutAppend key: 2 value: 3510942875414458836 kv.conf: 6 args.conf: 6 MAX=15 
+0 102 RRR S-PutAppend key: 4 value: 2610529275472644968 kv.conf: 6 args.conf: 6 MAX=7 
+OKKK key: 5 value: 5577006791947779410 XID: 2469107692699621800 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 5 GID 100 config: 6
+unexpected EOF
+unexpected EOF
+C-PutAppend key: 9 value: 1874068156324778273 XID: 2658248754093186046 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: connection reset by peer
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: connection reset by peer
+C-PutAppend key: 9 value: 1874068156324778273 XID: 2658248754093186046 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-4 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+C-PutAppend key: 9 value: 1874068156324778273 XID: 2658248754093186046 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+unexpected EOF
+2 101 RRR S-PutAppend key: 9 value: 1874068156324778273 kv.conf: 6 args.conf: 6 MAX=9 
+OKKK key: 7 value: 2775422040480279449 XID: 3644027872887247987 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+C-Get key: 7 GID 102 config: 6
+C-PutAppend key: 0 value: 7955079406183515637 XID: 356702712147635742 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: connection reset by peer
+1 102 RRR S-Get key: 7 conf: 6 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: broken pipe
+C-PutAppend key: 10 value: 6426100070888298971 XID: 2708157353436289498 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+0 100 RRR S-Get key: 5 conf: 6 
+OKKK key: 2 value: 3510942875414458836 XID: 4257651515390744452 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 2 GID 100 config: 6
+OKKK key: 4 value: 2610529275472644968 XID: 4396126952987208053 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-Get key: 4 GID 102 config: 6
+C-PutAppend key: 6 value: 1460320609597786623 XID: 930963380007272393 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+unexpected EOF
+0 102 RRR S-Get key: 4 conf: 6 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+OKKK key: 9 value: 1874068156324778273 XID: 2658248754093186046 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-5 
+C-Get key: 9 GID 101 config: 6
+unexpected EOF
+1 101 RRR S-Get key: 9 conf: 6 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+
+(1,102)-6 #### Reconf 0-9 ###### {Reconf   3195667676080141928 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,102)-6 #### Reconf 1-9 ###### {Reconf   3762826051482164820 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,102)-6 #### Reconf 2-9 ###### {Reconf   1286700220152364053 {3 [100 101 102 100 101 102 100 101 102 100] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,102)-6 #### Reconf 3-9 ###### {Reconf   487645578639474214 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,102)-6 #### Reconf 4-9 ###### {Reconf   2216341182802789253 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,102)-6 #### Reconf 5-9 ###### {Reconf   3487094115875827226 {6 [100 101 102 100 101 102 101 101 100 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,102)-6 #### APP 6-9 ###### {Append 7 2775422040480279449 3644027872887247987 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,102)-6 #### APP 7-9 ###### {Append 4 2610529275472644968 4396126952987208053 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,102)-6 #### Get 8-9 ###### {Get 7  1282419430757672860 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### Get 10-16 ###### {Get 8  1314165862896272237 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### Reconf 11-16 ###### {Reconf   4468025782747944412 {6 [100 101 102 100 101 102 101 101 100 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,100)-6 #### Reconf 12-16 ###### {Reconf   1787074972501035162 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,100)-6 #### Reconf 13-16 ###### {Reconf   464419045911047816 {6 [100 101 102 100 101 102 101 101 100 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,100)-6 #### APP 14-16 ###### {Append 5 5577006791947779410 2469107692699621800 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 15-16 ###### {Append 2 3510942875414458836 4257651515390744452 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-PutAppend key: 0 value: 7955079406183515637 kv.conf: 6 args.conf: 6 MAX=17 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+
+(0,102)-6 #### Reconf 0-9 ###### {Reconf   3195667676080141928 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,102)-6 #### Reconf 1-9 ###### {Reconf   3762826051482164820 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,102)-6 #### Reconf 2-9 ###### {Reconf   1286700220152364053 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,102)-6 #### Reconf 3-9 ###### {Reconf   487645578639474214 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,102)-6 #### Reconf 4-9 ###### {Reconf   2216341182802789253 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,102)-6 #### Reconf 5-9 ###### {Reconf   3487094115875827226 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,102)-6 #### APP 6-9 ###### {Append 7 2775422040480279449 3644027872887247987 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,102)-6 #### APP 7-9 ###### {Append 4 2610529275472644968 4396126952987208053 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,102)-6 #### Get 8-9 ###### {Get 7  1282419430757672860 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+
+(1,101)-6 #### Reconf 0-12 ###### {Reconf   2875127426176428692 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,101)-6 #### Reconf 1-12 ###### {Reconf   3343800433663258056 {3 [100 101 102 100 101 102 100 101 102 100] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,101)-6 #### Reconf 2-12 ###### {Reconf   4079860212594946262 {3 [100 101 102 100 101 102 100 101 102 100] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,101)-6 #### Reconf 3-12 ###### {Reconf   584196283604717832 {6 [100 101 102 100 101 102 101 101 100 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,101)-6 #### Reconf 4-12 ###### {Reconf   383915688284663423 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,101)-6 #### Reconf 5-12 ###### {Reconf   3785848642975687232 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,101)-6 #### APP 6-12 ###### {Append 10 6426100070888298971 3913964432572086017 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-6 #### APP 7-12 ###### {Append 8 732830328053361739 1409436062871437272 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-6 #### APP 9-12 ###### {Append 9 1874068156324778273 2658248754093186046 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-6 #### Get 10-12 ###### {Get 8  271606927788036944 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-6 #### Get 11-12 ###### {Get 9  4190906525847568750 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-Get key: 2 conf: 6 
+OKKK key: 0 value: 7955079406183515637 XID: 356702712147635742 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 0 GID 100 config: 6
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+C-PutAppend key: 9 value: 5596029706218078403 XID: 1552337142479036248 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+
+(0,100)-6 #### Get 16-18 ###### {Get 5  3621631256892866131 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 17-18 ###### {Append 0 7955079406183515637 356702712147635742 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-Get key: 0 conf: 6 
+C-PutAppend key: 5 value: 2477080916348470461 XID: 3933354236415465516 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+C-PutAppend key: 7 value: 2566986775330172491 XID: 1675539254940927335 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+0 102 RRR S-PutAppend key: 7 value: 2566986775330172491 kv.conf: 6 args.conf: 6 MAX=10 
+
+(0,100)-6 #### Get 18-19 ###### {Get 2  2911109887575479718 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-PutAppend key: 5 value: 2477080916348470461 kv.conf: 6 args.conf: 6 MAX=20 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+C-PutAppend key: 4 value: 359103587867291008 XID: 1512169220292943465 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+C-PutAppend key: 2 value: 815280390251002288 XID: 1501687218958672239 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+C-PutAppend key: 2 value: 815280390251002288 XID: 1501687218958672239 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+1 100 RRR S-PutAppend key: 2 value: 815280390251002288 kv.conf: 6 args.conf: 6 MAX=21 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+0 102 RRR S-PutAppend key: 4 value: 359103587867291008 kv.conf: 6 args.conf: 6 MAX=11 
+OKKK key: 7 value: 2566986775330172491 XID: 1675539254940927335 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-Get key: 7 GID 102 config: 6
+unexpected EOF
+1 102 RRR S-Get key: 7 conf: 6 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+unexpected EOF
+OKKK key: 5 value: 2477080916348470461 XID: 3933354236415465516 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 5 GID 100 config: 6
+0 100 RRR S-Get key: 5 conf: 6 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+OKKK key: 2 value: 815280390251002288 XID: 1501687218958672239 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+C-Get key: 2 GID 100 config: 6
+0 102 RRR S-Get key: 7 conf: 6 
+OKKK key: 4 value: 359103587867291008 XID: 1512169220292943465 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+C-Get key: 4 GID 102 config: 6
+
+(1,102)-6 #### Get 9-13 ###### {Get 4  2061074912802399107 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,102)-6 #### APP 10-13 ###### {Append 7 2566986775330172491 1675539254940927335 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,102)-6 #### APP 11-13 ###### {Append 4 359103587867291008 1512169220292943465 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,102)-6 #### Get 12-13 ###### {Get 7  227921414830805908 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+
+(0,100)-6 #### Get 19-22 ###### {Get 0  1801085550704635625 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 20-22 ###### {Append 5 2477080916348470461 3933354236415465516 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 21-22 ###### {Append 2 815280390251002288 1501687218958672239 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-Get key: 2 conf: 6 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+C-PutAppend key: 5 value: 4984809493774585820 XID: 2935132308594611041 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+unexpected EOF
+C-PutAppend key: 5 value: 4984809493774585820 XID: 2935132308594611041 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+1 100 RRR S-PutAppend key: 5 value: 4984809493774585820 kv.conf: 6 args.conf: 6 MAX=24 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+C-PutAppend key: 0 value: 630539883285383665 XID: 350503361633812396 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+
+(0,102)-6 #### Get 9-13 ###### {Get 4  2061074912802399107 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,102)-6 #### APP 10-13 ###### {Append 7 2566986775330172491 1675539254940927335 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,102)-6 #### APP 11-13 ###### {Append 4 359103587867291008 1512169220292943465 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,102)-6 #### Get 12-13 ###### {Get 7  227921414830805908 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 102 RRR S-Get key: 4 conf: 6 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+
+(0,100)-6 #### Get 22-23 ###### {Get 5  3239660185231969321 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-PutAppend key: 5 value: 4984809493774585820 kv.conf: 6 args.conf: 6 MAX=24 
+0 100 RRR S-PutAppend key: 0 value: 630539883285383665 kv.conf: 6 args.conf: 6 MAX=25 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: connection reset by peer
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: connection reset by peer
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+C-PutAppend key: 7 value: 2509373723443337404 XID: 4193732304767125691 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+unexpected EOF
+C-PutAppend key: 7 value: 2509373723443337404 XID: 4193732304767125691 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+1 102 RRR S-PutAppend key: 7 value: 2509373723443337404 kv.conf: 6 args.conf: 6 MAX=15 
+unexpected EOF
+unexpected EOF
+OKKK key: 5 value: 4984809493774585820 XID: 2935132308594611041 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+C-Get key: 5 GID 100 config: 6
+unexpected EOF
+
+(0,102)-6 #### Get 14-15 ###### {Get 4  4232501255236675428 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 102 RRR S-PutAppend key: 7 value: 2509373723443337404 kv.conf: 6 args.conf: 6 MAX=16 
+unexpected EOF
+unexpected EOF
+0 100 RRR S-Get key: 5 conf: 6 
+OKKK key: 0 value: 630539883285383665 XID: 350503361633812396 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 0 GID 100 config: 6
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+OKKK key: 7 value: 2509373723443337404 XID: 4193732304767125691 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+C-Get key: 7 GID 102 config: 6
+0 102 RRR S-Get key: 7 conf: 6 
+C-PutAppend key: 4 value: 1779861491641687820 XID: 4425888963172300105 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-6 
+unexpected EOF
+C-PutAppend key: 4 value: 1779861491641687820 XID: 4425888963172300105 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-7 
+unexpected EOF
+C-PutAppend key: 4 value: 1779861491641687820 XID: 4425888963172300105 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-8 
+C-PutAppend key: 2 value: 932352552525192296 XID: 651757475570782243 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+1 102 RRR S-PutAppend key: 4 value: 1779861491641687820 kv.conf: 6 args.conf: 6 MAX=18 
+2 102 RRR S-PutAppend key: 4 value: 1779861491641687820 kv.conf: 6 args.conf: 6 MAX=18 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-6: broken pipe
+
+(0,100)-6 #### Get 23-26 ###### {Get 2  2434489400239790171 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 24-26 ###### {Append 5 4984809493774585820 2935132308594611041 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 25-26 ###### {Append 0 630539883285383665 350503361633812396 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-Get key: 0 conf: 6 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+
+(0,102)-6 #### APP 15-18 ###### {Append 7 2509373723443337404 4193732304767125691 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,102)-6 #### Get 17-18 ###### {Get 7  269537598998120610 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 102 RRR S-PutAppend key: 4 value: 1779861491641687820 kv.conf: 6 args.conf: 6 MAX=19 
+unexpected EOF
+OKKK key: 4 value: 1779861491641687820 XID: 4425888963172300105 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-8 
+C-Get key: 4 GID 102 config: 6
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+
+(0,100)-6 #### Get 26-27 ###### {Get 5  4101611212719129274 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-PutAppend key: 2 value: 932352552525192296 kv.conf: 6 args.conf: 6 MAX=28 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+0 102 RRR S-Get key: 4 conf: 6 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+OKKK key: 2 value: 932352552525192296 XID: 651757475570782243 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 2 GID 100 config: 6
+0 100 RRR S-Get key: 2 conf: 6 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+
+(0,102)-6 #### APP 18-20 ###### {Append 4 1779861491641687820 4425888963172300105 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### Get 27-29 ###### {Get 0  1490221437895049948 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 28-29 ###### {Append 2 932352552525192296 651757475570782243 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+C-PutAppend key: 0 value: 4721949183587139653 XID: 1328485239521422169 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 RRR S-PutAppend key: 0 value: 4721949183587139653 kv.conf: 6 args.conf: 6 MAX=30 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+OKKK key: 0 value: 4721949183587139653 XID: 1328485239521422169 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 0 GID 100 config: 6
+0 100 RRR S-Get key: 0 conf: 6 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+
+(0,100)-6 #### Get 29-31 ###### {Get 2  2764289241825123893 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-6 #### APP 30-31 ###### {Append 0 4721949183587139653 1328485239521422169 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+unexpected EOF
+C-Get key: 4 GID 100 config: 21
+0 100 WWW S-Get key: 4 conf: 6 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+0 101 RRR S-PutAppend key: 1 value: 4037200794235010051 kv.conf: 6 args.conf: 6 MAX=32 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+0 101 RRR S-PutAppend key: 3 value: 605394647632969758 kv.conf: 6 args.conf: 6 MAX=33 
+OKKK key: 1 value: 4037200794235010051 XID: 3635835427176182769 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-Get key: 1 GID 101 config: 6
+unexpected EOF
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+1 101 Config Changed from 6 to 21 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: broken pipe
+unexpected EOF
+2 101 Config Changed from 6 to 21 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+unexpected EOF
+unexpected EOF
+0 102 Config Changed from 6 to 21 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+1 102 Config Changed from 6 to 21 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+0 101 RRR S-PutAppend key: 10 value: 6426100070888298971 kv.conf: 6 args.conf: 6 MAX=36 
+OKKK key: 3 value: 605394647632969758 XID: 2942204593540487916 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-Get key: 3 GID 101 config: 6
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: connection reset by peer
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: connection reset by peer
+unexpected EOF
+unexpected EOF
+@@ MOVE SHARDS &{2589534448818326183 [{1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {2942204593540487916 Append 3 605394647632969758}]} 
+ from 101 (1) to 100 conf=21
+1 101 WWW S-Get key: 3 conf: 21 
+0 100 S-MoveShard CONT: [{1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {2942204593540487916 Append 3 605394647632969758}] 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: connection reset by peer
+unexpected EOF
+2 102 Config Changed from 6 to 21 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+unexpected EOF
+@@ MOVE SHARDS &{809167002433172313 [{1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {2942204593540487916 Append 3 605394647632969758}]} 
+ from 101 (2) to 100 conf=21
+unexpected EOF
+0 100 S-MoveShard CONT: [{1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {2942204593540487916 Append 3 605394647632969758}] 
+@@ MOVE SHARDS &{3710261786896220661 [{3644027872887247987 Append 7 2775422040480279449} {1282419430757672860 Get 7 } {1675539254940927335 Append 7 2566986775330172491} {227921414830805908 Get 7 } {227921414830805908 Get 7 } {4193732304767125691 Append 7 2509373723443337404} {4193732304767125691 Append 7 2509373723443337404} {269537598998120610 Get 7 }]} 
+ from 102 (0) to 101 conf=21
+0 101 S-MoveShard CONT: [{3644027872887247987 Append 7 2775422040480279449} {1282419430757672860 Get 7 } {1675539254940927335 Append 7 2566986775330172491} {227921414830805908 Get 7 } {227921414830805908 Get 7 } {4193732304767125691 Append 7 2509373723443337404} {4193732304767125691 Append 7 2509373723443337404} {269537598998120610 Get 7 }] 
+@@ MOVE SHARDS &{1310408638165685509 [{4396126952987208053 Append 4 2610529275472644968} {2061074912802399107 Get 4 } {1512169220292943465 Append 4 359103587867291008} {4232501255236675428 Get 4 } {4425888963172300105 Append 4 1779861491641687820} {4425888963172300105 Append 4 1779861491641687820} {1227090410158706067 Get 4 }]} 
+ from 102 (1) to 100 conf=21
+0 101 RRR S-PutAppend key: 6 value: 1460320609597786623 kv.conf: 6 args.conf: 6 MAX=37 
+0 100 S-MoveShard CONT: [{4396126952987208053 Append 4 2610529275472644968} {2061074912802399107 Get 4 } {1512169220292943465 Append 4 359103587867291008} {4232501255236675428 Get 4 } {4425888963172300105 Append 4 1779861491641687820} {4425888963172300105 Append 4 1779861491641687820} {1227090410158706067 Get 4 }] 
+OKKK key: 10 value: 6426100070888298971 XID: 2708157353436289498 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-Get key: 10 GID 101 config: 6
+unexpected EOF
+unexpected EOF
+@@ MOVE SHARDS &{1714774772592165325 [{3644027872887247987 Append 7 2775422040480279449} {1282419430757672860 Get 7 } {1675539254940927335 Append 7 2566986775330172491} {227921414830805908 Get 7 } {227921414830805908 Get 7 } {4193732304767125691 Append 7 2509373723443337404} {4193732304767125691 Append 7 2509373723443337404} {269537598998120610 Get 7 }]} 
+ from 102 (2) to 101 conf=21
+0 101 S-MoveShard CONT: [{3644027872887247987 Append 7 2775422040480279449} {1282419430757672860 Get 7 } {1675539254940927335 Append 7 2566986775330172491} {227921414830805908 Get 7 } {227921414830805908 Get 7 } {4193732304767125691 Append 7 2509373723443337404} {4193732304767125691 Append 7 2509373723443337404} {269537598998120610 Get 7 }] 
+unexpected EOF
+0 101 RRR S-Get key: 9 conf: 6 
+OKKK key: 6 value: 1460320609597786623 XID: 930963380007272393 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-Get key: 6 GID 101 config: 6
+unexpected EOF
+1 101 WWW S-Get key: 6 conf: 21 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+unexpected EOF
+
+(0,101)-6 #### Reconf 0-38 ###### {Reconf   2875127426176428692 {3 [100 101 102 100 101 102 100 101 102 100] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,101)-6 #### Reconf 1-38 ###### {Reconf   3343800433663258056 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,101)-6 #### Reconf 2-38 ###### {Reconf   4079860212594946262 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,101)-6 #### Reconf 3-38 ###### {Reconf   584196283604717832 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,101)-6 #### Reconf 4-38 ###### {Reconf   383915688284663423 {6 [100 101 102 100 101 102 101 101 100 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,101)-6 #### Reconf 5-38 ###### {Reconf   3785848642975687232 {6 [100 101 102 100 101 102 101 101 100 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,101)-6 #### APP 6-38 ###### {Append 10 6426100070888298971 3913964432572086017 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### APP 7-38 ###### {Append 8 732830328053361739 1409436062871437272 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### APP 9-38 ###### {Append 9 1874068156324778273 2658248754093186046 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### Get 10-38 ###### {Get 8  271606927788036944 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### Get 11-38 ###### {Get 9  4190906525847568750 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### APP 12-38 ###### {Append 8 3990936847941512656 159759496810967689 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### Get 13-38 ###### {Get 8  4599640403360627210 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### APP 14-38 ###### {Append 8 9001045019697981509 997015279614948358 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### Get 15-38 ###### {Get 8  1314165862896272237 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### APP 32-38 ###### {Append 1 4037200794235010051 3635835427176182769 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### APP 33-38 ###### {Append 3 605394647632969758 2942204593540487916 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### Reconf 34-38 ###### {Reconf   1328417511845555599 {21 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,101)-6 #### Reconf 35-38 ###### {Reconf   2758459912023181768 {21 [102 100 100 100 102 101 100 102 102 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,101)-6 #### APP 36-38 ###### {Append 10 6426100070888298971 2708157353436289498 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-6 #### APP 37-38 ###### {Append 6 1460320609597786623 930963380007272393 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 101 RRR S-PutAppend key: 9 value: 5596029706218078403 kv.conf: 6 args.conf: 6 MAX=39 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+OKKK key: 9 value: 5596029706218078403 XID: 1552337142479036248 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-Get key: 9 GID 101 config: 6
+unexpected EOF
+1 101 WWW S-Get key: 9 conf: 21 
+0 101 Config Changed from 6 to 21 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+0 101 WWW S-Get key: 1 conf: 21 
+@@ MOVE SHARDS &{263298072873645878 [{1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {2942204593540487916 Append 3 605394647632969758}]} 
+ from 101 (0) to 100 conf=21
+unexpected EOF
+0 100 S-MoveShard CONT: [{1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {1409436062871437272 Append 8 732830328053361739} {1409436062871437272 Append 8 732830328053361739} {271606927788036944 Get 8 } {159759496810967689 Append 8 3990936847941512656} {4599640403360627210 Get 8 } {997015279614948358 Append 8 9001045019697981509} {1314165862896272237 Get 8 } {2942204593540487916 Append 3 605394647632969758}] 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+C-Get key: 4 GID 100 config: 21
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+C-Get key: 3 GID 100 config: 21
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+C-Get key: 6 GID 102 config: 21
+0 102 RRR S-Get key: 6 conf: 21 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+unexpected EOF
+
+(0,102)-21 #### Get 20-24 ###### {Get 4  1227090410158706067 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,102)-21 #### Reconf 21-24 ###### {Reconf   4328548852797426559 {21 [102 100 100 100 102 101 100 102 102 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,102)-21 #### Reconf 22-24 ###### {Reconf   3784521922475391879 {21 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,102)-21 #### Reconf 23-24 ###### {Reconf   2872942082351994602 {21 [102 100 100 100 102 101 100 102 102 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+unexpected EOF
+unexpected EOF
+0 101 WWW S-Get key: 10 conf: 21 
+@@ MOVE SHARDS &{2557734099894090053 [{4396126952987208053 Append 4 2610529275472644968} {2061074912802399107 Get 4 } {1512169220292943465 Append 4 359103587867291008} {4232501255236675428 Get 4 } {4425888963172300105 Append 4 1779861491641687820} {4425888963172300105 Append 4 1779861491641687820} {1227090410158706067 Get 4 }]} 
+ from 102 (0) to 100 conf=21
+0 100 S-MoveShard CONT: [{4396126952987208053 Append 4 2610529275472644968} {2061074912802399107 Get 4 } {1512169220292943465 Append 4 359103587867291008} {4232501255236675428 Get 4 } {4425888963172300105 Append 4 1779861491641687820} {4425888963172300105 Append 4 1779861491641687820} {1227090410158706067 Get 4 }] 
+unexpected EOF
+unexpected EOF
+C-Get key: 9 GID 102 config: 21
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+0 102 RRR S-Get key: 9 conf: 21 
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: connection reset by peer
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+1 100 Config Changed from 6 to 21 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+unexpected EOF
+unexpected EOF
+
+(0,102)-21 #### Get 24-25 ###### {Get 6  848112296748384836 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+C-Get key: 1 GID 101 config: 21
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+@@ MOVE SHARDS &{1773555760629211365 [{4257651515390744452 Append 2 3510942875414458836} {356702712147635742 Append 0 7955079406183515637} {2911109887575479718 Get 2 } {1801085550704635625 Get 0 } {1501687218958672239 Append 2 815280390251002288} {2434489400239790171 Get 2 } {350503361633812396 Append 0 630539883285383665} {1490221437895049948 Get 0 } {651757475570782243 Append 2 932352552525192296} {2764289241825123893 Get 2 } {1328485239521422169 Append 0 4721949183587139653} {450867794706606087 Get 0 }]} 
+ from 100 (1) to 102 conf=21
+0 102 S-MoveShard CONT: [{4257651515390744452 Append 2 3510942875414458836} {356702712147635742 Append 0 7955079406183515637} {2911109887575479718 Get 2 } {1801085550704635625 Get 0 } {1501687218958672239 Append 2 815280390251002288} {2434489400239790171 Get 2 } {350503361633812396 Append 0 630539883285383665} {1490221437895049948 Get 0 } {651757475570782243 Append 2 932352552525192296} {2764289241825123893 Get 2 } {1328485239521422169 Append 0 4721949183587139653} {450867794706606087 Get 0 }] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+0 101 WWW S-Get key: 6 conf: 21 
+0 101 WWW S-Get key: 9 conf: 21 
+0 101 RRR S-Get key: 1 conf: 21 
+@@ MOVE SHARDS &{847000759178649479 [{4396126952987208053 Append 4 2610529275472644968} {2061074912802399107 Get 4 } {1512169220292943465 Append 4 359103587867291008} {4232501255236675428 Get 4 } {4425888963172300105 Append 4 1779861491641687820} {4425888963172300105 Append 4 1779861491641687820} {1227090410158706067 Get 4 }]} 
+ from 102 (2) to 100 conf=21
+0 100 S-MoveShard CONT: [{4396126952987208053 Append 4 2610529275472644968} {2061074912802399107 Get 4 } {1512169220292943465 Append 4 359103587867291008} {4232501255236675428 Get 4 } {4425888963172300105 Append 4 1779861491641687820} {4425888963172300105 Append 4 1779861491641687820} {1227090410158706067 Get 4 }] 
+unexpected EOF
+@@ MOVE SHARDS &{3322371463113099040 [{2658248754093186046 Append 9 1874068156324778273} {4190906525847568750 Get 9 }]} 
+ from 101 (1) to 102 conf=21
+0 102 S-MoveShard CONT: [{2658248754093186046 Append 9 1874068156324778273} {4190906525847568750 Get 9 }] 
+
+(0,101)-21 #### APP 39-57 ###### {Append 9 5596029706218078403 1552337142479036248 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### Reconf 40-57 ###### {Reconf   2180305260665876071 {21 [102 100 100 100 102 101 100 102 102 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,101)-21 #### APP 41-57 ###### {Append 7 2775422040480279449 3644027872887247987 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### Get 42-57 ###### {Get 7  1282419430757672860 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### APP 43-57 ###### {Append 7 2566986775330172491 1675539254940927335 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### Get 44-57 ###### {Get 7  227921414830805908 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### APP 46-57 ###### {Append 7 2509373723443337404 4193732304767125691 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### Get 48-57 ###### {Get 7  269537598998120610 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+2 100 Config Changed from 6 to 22 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 102 101 100 102 102 101] 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+C-PutAppend key: 1 value: 1655708393934923883 XID: 1228830303108927395 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+0 101 RRR S-PutAppend key: 1 value: 1655708393934923883 kv.conf: 21 args.conf: 21 MAX=58 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: connection reset by peer
+C-Get key: 10 GID 101 config: 22
+@@ MOVE SHARDS &{9549702068642138 [{4257651515390744452 Append 2 3510942875414458836} {356702712147635742 Append 0 7955079406183515637} {2911109887575479718 Get 2 } {1801085550704635625 Get 0 } {1501687218958672239 Append 2 815280390251002288} {2434489400239790171 Get 2 } {350503361633812396 Append 0 630539883285383665} {1490221437895049948 Get 0 } {651757475570782243 Append 2 932352552525192296} {2764289241825123893 Get 2 } {1328485239521422169 Append 0 4721949183587139653} {450867794706606087 Get 0 }]} 
+ from 100 (2) to 102 conf=22
+0 102 S-MoveShard CONT: [{4257651515390744452 Append 2 3510942875414458836} {356702712147635742 Append 0 7955079406183515637} {2911109887575479718 Get 2 } {1801085550704635625 Get 0 } {1501687218958672239 Append 2 815280390251002288} {2434489400239790171 Get 2 } {350503361633812396 Append 0 630539883285383665} {1490221437895049948 Get 0 } {651757475570782243 Append 2 932352552525192296} {2764289241825123893 Get 2 } {1328485239521422169 Append 0 4721949183587139653} {450867794706606087 Get 0 }] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+0 101 WWW S-Get key: 10 conf: 21 
+OKKK key: 1 value: 1655708393934923883 XID: 1228830303108927395 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-Get key: 1 GID 101 config: 21
+0 101 RRR S-Get key: 1 conf: 21 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+
+(0,101)-21 #### Get 57-59 ###### {Get 1  494518727375902026 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### APP 58-59 ###### {Append 1 1655708393934923883 1228830303108927395 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+C-PutAppend key: 1 value: 4367299987866319660 XID: 764363603000346795 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+0 101 RRR S-PutAppend key: 1 value: 4367299987866319660 kv.conf: 21 args.conf: 21 MAX=60 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+OKKK key: 1 value: 4367299987866319660 XID: 764363603000346795 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-3 
+C-Get key: 1 GID 101 config: 21
+0 101 RRR S-Get key: 1 conf: 21 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+
+(0,101)-21 #### Get 59-61 ###### {Get 1  120541274885078492 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,101)-21 #### APP 60-61 ###### {Append 1 4367299987866319660 764363603000346795 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: connection reset by peer
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: connection reset by peer
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+C-Get key: 10 GID 101 config: 24
+0 101 WWW S-Get key: 10 conf: 21 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+@@ MOVE SHARDS &{1760808155237792958 [{2658248754093186046 Append 9 1874068156324778273} {4190906525847568750 Get 9 }]} 
+ from 101 (2) to 102 conf=21
+0 102 S-MoveShard CONT: [{2658248754093186046 Append 9 1874068156324778273} {4190906525847568750 Get 9 }] 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: connection reset by peer
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+C-Get key: 10 GID 101 config: 24
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-3: connection reset by peer
+1 101 WWW S-Get key: 10 conf: 21 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+@@ MOVE SHARDS &{2755712867420964956 [{3644027872887247987 Append 7 2775422040480279449} {1282419430757672860 Get 7 } {1675539254940927335 Append 7 2566986775330172491} {227921414830805908 Get 7 } {227921414830805908 Get 7 } {4193732304767125691 Append 7 2509373723443337404} {4193732304767125691 Append 7 2509373723443337404} {269537598998120610 Get 7 }]} 
+ from 102 (1) to 101 conf=21
+0 101 S-MoveShard CONT: [{3644027872887247987 Append 7 2775422040480279449} {1282419430757672860 Get 7 } {1675539254940927335 Append 7 2566986775330172491} {227921414830805908 Get 7 } {227921414830805908 Get 7 } {4193732304767125691 Append 7 2509373723443337404} {4193732304767125691 Append 7 2509373723443337404} {269537598998120610 Get 7 }] 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+1 100 Config Changed from 21 to 24 
+***
+oldConf Shards [102 100 100 100 102 101 100 102 102 101]
+newConf Shards [102 100 100 100 100 101 100 102 102 101] 
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+C-Get key: 10 GID 101 config: 24
+1 101 Config Changed from 21 to 24 
+***
+oldConf Shards [102 100 100 100 102 101 100 102 102 101]
+newConf Shards [102 100 100 100 100 101 100 102 102 101] 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+@@ MOVE SHARDS &{4566263790597199820 [{930963380007272393 Append 6 1460320609597786623}]} 
+ from 101 (1) to 100 conf=24
+0 100 S-MoveShard CONT: [{930963380007272393 Append 6 1460320609597786623}] 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-5: broken pipe
+0 101 WWW S-Get key: 10 conf: 21 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+2 100 Config Changed from 22 to 24 
+***
+oldConf Shards [102 100 100 100 102 101 100 102 102 101]
+newConf Shards [102 100 100 100 100 101 100 102 102 101] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+C-Get key: 10 GID 101 config: 24
+unexpected EOF
+0 101 WWW S-Get key: 10 conf: 21 
+1 101 RRR S-Get key: 10 conf: 24 
+unexpected EOF
+
+(1,101)-24 #### APP 12-71 ###### {Append 8 3990936847941512656 159759496810967689 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 13-71 ###### {Get 8  4599640403360627210 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 14-71 ###### {Append 8 9001045019697981509 997015279614948358 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 15-71 ###### {Get 8  1314165862896272237 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 32-71 ###### {Append 1 4037200794235010051 3635835427176182769 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 33-71 ###### {Append 3 605394647632969758 2942204593540487916 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Reconf 34-71 ###### {Reconf   1328417511845555599 {21 [102 100 100 100 102 101 100 102 102 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,101)-24 #### Reconf 35-71 ###### {Reconf   2758459912023181768 {21 [102 100 100 100 102 101 100 102 102 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,101)-24 #### APP 36-71 ###### {Append 10 6426100070888298971 2708157353436289498 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 37-71 ###### {Append 6 1460320609597786623 930963380007272393 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 39-71 ###### {Append 9 5596029706218078403 1552337142479036248 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Reconf 40-71 ###### {Reconf   2180305260665876071 {21 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(1,101)-24 #### APP 41-71 ###### {Append 7 2775422040480279449 3644027872887247987 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 42-71 ###### {Get 7  1282419430757672860 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 43-71 ###### {Append 7 2566986775330172491 1675539254940927335 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 44-71 ###### {Get 7  227921414830805908 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 46-71 ###### {Append 7 2509373723443337404 4193732304767125691 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 48-71 ###### {Get 7  269537598998120610 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 57-71 ###### {Get 1  494518727375902026 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 58-71 ###### {Append 1 1655708393934923883 1228830303108927395 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 59-71 ###### {Get 1  120541274885078492 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### APP 60-71 ###### {Append 1 4367299987866319660 764363603000346795 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Get 61-71 ###### {Get 1  4609471066538734648 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,101)-24 #### Reconf 66-71 ###### {Reconf   4183448159269570671 {24 [102 100 100 100 100 101 100 102 102 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+unexpected EOF
+unexpected EOF
+2 101 Config Changed from 21 to 24 
+***
+oldConf Shards [102 100 100 100 102 101 100 102 102 101]
+newConf Shards [102 100 100 100 100 101 100 102 102 101] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-4: broken pipe
+unexpected EOF
+@@ MOVE SHARDS &{1196665744982565060 [{930963380007272393 Append 6 1460320609597786623}]} 
+ from 101 (2) to 100 conf=24
+unexpected EOF
+0 100 S-MoveShard CONT: [{930963380007272393 Append 6 1460320609597786623}] 
+@@ MOVE SHARDS &{1092361532182799094 [{2658248754093186046 Append 9 1874068156324778273} {4190906525847568750 Get 9 } {930963380007272393 Append 6 1460320609597786623} {4190906525847568750 Get 9 } {1552337142479036248 Append 9 5596029706218078403}]} 
+ from 101 (0) to 102 conf=21
+0 102 S-MoveShard CONT: [{2658248754093186046 Append 9 1874068156324778273} {4190906525847568750 Get 9 } {930963380007272393 Append 6 1460320609597786623} {4190906525847568750 Get 9 } {1552337142479036248 Append 9 5596029706218078403}] 
+0 100 Config Changed from 6 to 24 
+***
+oldConf Shards [100 101 102 100 101 102 101 101 100 101]
+newConf Shards [102 100 100 100 100 101 100 102 102 101] 
+unexpected EOF
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: connection reset by peer
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+0 100 WWW S-Get key: 4 conf: 24 
+0 100 WWW S-Get key: 3 conf: 24 
+@@ MOVE SHARDS &{3420971626530914787 [{4257651515390744452 Append 2 3510942875414458836} {356702712147635742 Append 0 7955079406183515637} {2911109887575479718 Get 2 } {1801085550704635625 Get 0 } {1501687218958672239 Append 2 815280390251002288} {2434489400239790171 Get 2 } {350503361633812396 Append 0 630539883285383665} {1490221437895049948 Get 0 } {651757475570782243 Append 2 932352552525192296} {2764289241825123893 Get 2 } {1328485239521422169 Append 0 4721949183587139653} {450867794706606087 Get 0 }]} 
+ from 100 (0) to 102 conf=24
+0 102 S-MoveShard CONT: [{4257651515390744452 Append 2 3510942875414458836} {356702712147635742 Append 0 7955079406183515637} {2911109887575479718 Get 2 } {1801085550704635625 Get 0 } {1501687218958672239 Append 2 815280390251002288} {2434489400239790171 Get 2 } {350503361633812396 Append 0 630539883285383665} {1490221437895049948 Get 0 } {651757475570782243 Append 2 932352552525192296} {2764289241825123893 Get 2 } {1328485239521422169 Append 0 4721949183587139653} {450867794706606087 Get 0 }] 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: connection reset by peer
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+1 102 Config Changed from 21 to 24 
+***
+oldConf Shards [102 100 100 100 102 101 100 102 102 101]
+newConf Shards [102 100 100 100 100 101 100 102 102 101] 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+C-Get key: 4 GID 100 config: 24
+C-Get key: 3 GID 100 config: 24
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+2 100 RRR S-Get key: 3 conf: 24 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+@@ MOVE SHARDS &{4157784352093638176 [{848112296748384836 Get 6 } {930963380007272393 Append 6 1460320609597786623}]} 
+ from 102 (1) to 100 conf=24
+0 100 S-MoveShard CONT: [{848112296748384836 Get 6 } {930963380007272393 Append 6 1460320609597786623}] 
+
+(2,100)-24 #### Reconf 0-122 ###### {Reconf   1298754585926872950 {3 [100 101 102 100 101 102 100 101 102 100] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(2,100)-24 #### Reconf 1-122 ###### {Reconf   3982743845823279308 {3 [100 101 102 100 101 102 100 101 102 100] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(2,100)-24 #### Reconf 2-122 ###### {Reconf   4157032994640421604 {3 [100 101 102 100 101 102 100 101 102 100] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(2,100)-24 #### APP 3-122 ###### {Append 10 6426100070888298971 3913964432572086017 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 4-122 ###### {Append 8 732830328053361739 1409436062871437272 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 6-122 ###### {Get 8  271606927788036944 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 7-122 ###### {Append 8 3990936847941512656 159759496810967689 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 8-122 ###### {Get 8  4599640403360627210 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 9-122 ###### {Append 8 9001045019697981509 997015279614948358 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 10-122 ###### {Get 8  1314165862896272237 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Reconf 11-122 ###### {Reconf   4468025782747944412 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(2,100)-24 #### Reconf 12-122 ###### {Reconf   1787074972501035162 {6 [100 101 102 100 101 102 101 101 100 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(2,100)-24 #### Reconf 13-122 ###### {Reconf   464419045911047816 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(2,100)-24 #### APP 14-122 ###### {Append 5 5577006791947779410 2469107692699621800 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 15-122 ###### {Append 2 3510942875414458836 4257651515390744452 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 16-122 ###### {Get 5  3621631256892866131 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 17-122 ###### {Append 0 7955079406183515637 356702712147635742 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 18-122 ###### {Get 2  2911109887575479718 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 19-122 ###### {Get 0  1801085550704635625 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 20-122 ###### {Append 5 2477080916348470461 3933354236415465516 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 21-122 ###### {Append 2 815280390251002288 1501687218958672239 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 22-122 ###### {Get 5  3239660185231969321 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 23-122 ###### {Get 2  2434489400239790171 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 24-122 ###### {Append 5 4984809493774585820 2935132308594611041 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 25-122 ###### {Append 0 630539883285383665 350503361633812396 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 26-122 ###### {Get 5  4101611212719129274 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 27-122 ###### {Get 0  1490221437895049948 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 28-122 ###### {Append 2 932352552525192296 651757475570782243 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 29-122 ###### {Get 2  2764289241825123893 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 30-122 ###### {Append 0 4721949183587139653 1328485239521422169 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 31-122 ###### {Get 0  450867794706606087 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Reconf 47-122 ###### {Reconf   1350942011937138562 {21 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(2,100)-24 #### APP 54-122 ###### {Append 3 605394647632969758 2942204593540487916 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Reconf 56-122 ###### {Reconf   1536090989672114801 {22 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(2,100)-24 #### APP 78-122 ###### {Append 4 2610529275472644968 4396126952987208053 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 79-122 ###### {Get 4  2061074912802399107 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 80-122 ###### {Append 4 359103587867291008 1512169220292943465 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 81-122 ###### {Get 4  4232501255236675428 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### APP 82-122 ###### {Append 4 1779861491641687820 4425888963172300105 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Get 84-122 ###### {Get 4  1227090410158706067 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(2,100)-24 #### Reconf 87-122 ###### {Reconf   2916023921002245184 {24 [102 100 100 100 100 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(2,100)-24 #### Reconf 102-122 ###### {Reconf   1612062687556154919 {24 [102 100 100 100 100 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(2,100)-24 #### Reconf 109-122 ###### {Reconf   4051970154094618961 {24 [102 100 100 100 100 101 100 102 102 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(2,100)-24 #### Get 121-122 ###### {Get 3  387692069449881468 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-8: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+C-PutAppend key: 3 value: 3255932821698593253 XID: 556758847106183407 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+C-PutAppend key: 3 value: 3255932821698593253 XID: 556758847106183407 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+1 100 RRR S-PutAppend key: 3 value: 3255932821698593253 kv.conf: 24 args.conf: 24 MAX=125 
+unexpected EOF
+unexpected EOF
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+OKKK key: 3 value: 3255932821698593253 XID: 556758847106183407 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-1 
+C-Get key: 3 GID 100 config: 24
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-7: broken pipe
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+0 100 RRR S-Get key: 4 conf: 24 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+
+(0,100)-24 #### Get 31-128 ###### {Get 0  450867794706606087 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### Reconf 47-128 ###### {Reconf   1350942011937138562 {21 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,100)-24 #### APP 54-128 ###### {Append 3 605394647632969758 2942204593540487916 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### Reconf 56-128 ###### {Reconf   1536090989672114801 {22 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,100)-24 #### APP 78-128 ###### {Append 4 2610529275472644968 4396126952987208053 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### Get 79-128 ###### {Get 4  2061074912802399107 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### APP 80-128 ###### {Append 4 359103587867291008 1512169220292943465 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### Get 81-128 ###### {Get 4  4232501255236675428 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### APP 82-128 ###### {Append 4 1779861491641687820 4425888963172300105 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### Get 84-128 ###### {Get 4  1227090410158706067 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### Reconf 87-128 ###### {Reconf   2916023921002245184 {24 [102 100 100 100 100 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(0,100)-24 #### Reconf 102-128 ###### {Reconf   1612062687556154919 {24 [102 100 100 100 100 101 100 102 102 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(0,100)-24 #### Reconf 109-128 ###### {Reconf   4051970154094618961 {24 [102 100 100 100 100 101 100 102 102 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(0,100)-24 #### Get 121-128 ###### {Get 3  387692069449881468 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### APP 125-128 ###### {Append 3 3255932821698593253 556758847106183407 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### APP 126-128 ###### {Append 6 1460320609597786623 930963380007272393 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+0 100 RRR S-Get key: 3 conf: 24 
+unexpected EOF
+unexpected EOF
+
+(0,100)-24 #### Get 128-129 ###### {Get 4  4323065710522201959 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+read unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: connection reset by peer
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+2 100 Config Changed from 24 to 26 
+***
+oldConf Shards [102 100 100 100 100 101 100 102 102 101]
+newConf Shards [102 100 100 100 100 101 100 102 102 101] 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+0 100 RRR S-Get key: 3 conf: 24 
+unexpected EOF
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-2: broken pipe
+unexpected EOF
+
+(0,100)-24 #### Get 130-133 ###### {Get 6  848112296748384836 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(0,100)-24 #### Reconf 131-133 ###### {Reconf   4589128880111585147 {26 [102 100 100 100 100 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+C-PutAppend key: 3 value: 8374090911099436765 XID: 3788378947611542932 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+0 100 RRR S-PutAppend key: 3 value: 8374090911099436765 kv.conf: 24 args.conf: 24 MAX=134 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-1: broken pipe
+unexpected EOF
+unexpected EOF
+OKKK key: 3 value: 8374090911099436765 XID: 3788378947611542932 dest: /var/tmp/824-21224/skv-16136-concurrent-trues-0 
+C-Get key: 3 GID 100 config: 24
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+1 100 RRR S-Get key: 3 conf: 24 
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+write unix /var/tmp/824-21224/skv-16136-concurrent-trues-0: broken pipe
+unexpected EOF
+unexpected EOF
+
+(1,100)-24 #### Reconf 0-135 ###### {Reconf   1298754585926872950 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,100)-24 #### Reconf 1-135 ###### {Reconf   3982743845823279308 {3 [100 101 102 100 101 102 100 101 102 100] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(1,100)-24 #### Reconf 2-135 ###### {Reconf   4157032994640421604 {3 [100 101 102 100 101 102 100 101 102 100] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,100)-24 #### APP 3-135 ###### {Append 10 6426100070888298971 3913964432572086017 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 4-135 ###### {Append 8 732830328053361739 1409436062871437272 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 6-135 ###### {Get 8  271606927788036944 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 7-135 ###### {Append 8 3990936847941512656 159759496810967689 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 8-135 ###### {Get 8  4599640403360627210 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 9-135 ###### {Append 8 9001045019697981509 997015279614948358 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 10-135 ###### {Get 8  1314165862896272237 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Reconf 11-135 ###### {Reconf   4468025782747944412 {6 [100 101 102 100 101 102 101 101 100 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,100)-24 #### Reconf 12-135 ###### {Reconf   1787074972501035162 {6 [100 101 102 100 101 102 101 101 100 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,100)-24 #### Reconf 13-135 ###### {Reconf   464419045911047816 {6 [100 101 102 100 101 102 101 101 100 101] map[100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8]]}} 
+
+(1,100)-24 #### APP 14-135 ###### {Append 5 5577006791947779410 2469107692699621800 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 15-135 ###### {Append 2 3510942875414458836 4257651515390744452 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 16-135 ###### {Get 5  3621631256892866131 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 17-135 ###### {Append 0 7955079406183515637 356702712147635742 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 18-135 ###### {Get 2  2911109887575479718 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 19-135 ###### {Get 0  1801085550704635625 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 20-135 ###### {Append 5 2477080916348470461 3933354236415465516 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 21-135 ###### {Append 2 815280390251002288 1501687218958672239 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 22-135 ###### {Get 5  3239660185231969321 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 23-135 ###### {Get 2  2434489400239790171 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 24-135 ###### {Append 5 4984809493774585820 2935132308594611041 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 25-135 ###### {Append 0 630539883285383665 350503361633812396 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 26-135 ###### {Get 5  4101611212719129274 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 27-135 ###### {Get 0  1490221437895049948 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 28-135 ###### {Append 2 932352552525192296 651757475570782243 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 29-135 ###### {Get 2  2764289241825123893 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 30-135 ###### {Append 0 4721949183587139653 1328485239521422169 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 31-135 ###### {Get 0  450867794706606087 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Reconf 47-135 ###### {Reconf   1350942011937138562 {21 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(1,100)-24 #### APP 54-135 ###### {Append 3 605394647632969758 2942204593540487916 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Reconf 56-135 ###### {Reconf   1536090989672114801 {22 [102 100 100 100 102 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(1,100)-24 #### APP 78-135 ###### {Append 4 2610529275472644968 4396126952987208053 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 79-135 ###### {Get 4  2061074912802399107 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 80-135 ###### {Append 4 359103587867291008 1512169220292943465 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 81-135 ###### {Get 4  4232501255236675428 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 82-135 ###### {Append 4 1779861491641687820 4425888963172300105 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 84-135 ###### {Get 4  1227090410158706067 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Reconf 87-135 ###### {Reconf   2916023921002245184 {24 [102 100 100 100 100 101 100 102 102 101] map[102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2] 101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5]]}} 
+
+(1,100)-24 #### Reconf 102-135 ###### {Reconf   1612062687556154919 {24 [102 100 100 100 100 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(1,100)-24 #### Reconf 109-135 ###### {Reconf   4051970154094618961 {24 [102 100 100 100 100 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(1,100)-24 #### Get 121-135 ###### {Get 3  387692069449881468 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 125-135 ###### {Append 3 3255932821698593253 556758847106183407 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 126-135 ###### {Append 6 1460320609597786623 930963380007272393 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 128-135 ###### {Get 4  4323065710522201959 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Get 130-135 ###### {Get 6  848112296748384836 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### Reconf 131-135 ###### {Reconf   4589128880111585147 {26 [102 100 100 100 100 101 100 102 102 101] map[101:[/var/tmp/824-21224/skv-16136-concurrent-trues-3 /var/tmp/824-21224/skv-16136-concurrent-trues-4 /var/tmp/824-21224/skv-16136-concurrent-trues-5] 102:[/var/tmp/824-21224/skv-16136-concurrent-trues-6 /var/tmp/824-21224/skv-16136-concurrent-trues-7 /var/tmp/824-21224/skv-16136-concurrent-trues-8] 100:[/var/tmp/824-21224/skv-16136-concurrent-trues-0 /var/tmp/824-21224/skv-16136-concurrent-trues-1 /var/tmp/824-21224/skv-16136-concurrent-trues-2]]}} 
+
+(1,100)-24 #### Get 133-135 ###### {Get 3  2416559609608715100 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+
+(1,100)-24 #### APP 134-135 ###### {Append 3 8374090911099436765 3788378947611542932 {0 [0 0 0 0 0 0 0 0 0 0] map[]}} 
+--- FAIL: TestConcurrentUnreliable (1.82s)
+	test_test.go:330: Get(6) expected 1460320609597786623 got 
+	test_test.go:330: Get(9) expected 18740681563247782735596029706218078403 got 
+	test_test.go:330: Get(10) expected 6426100070888298971 got 64261000708882989716426100070888298971
+	test_test.go:345: something is wrong
+FAIL
+exit status 1
+FAIL	shardkv	1.824s
